@@ -1,8 +1,53 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Car Management System
+
+This project comprises both server-side and client-side components for managing cars.
+
+- **Server Repository:** [Car-server](https://github.com/ManojGowda89/Car-server.git)
+- **Client Host:** [Car Client](https://car-client-mzpd.onrender.com)
+
+## Usage
+
+### Running the Client
+
+To run the client application locally, execute:
+
+```bash
+npm run dev
+```
+
+### Running the Server
+
+To run the server locally, execute:
+
+```bash
+npm run server
+```
+
+### Building the Client
+
+To build the client application, execute:
+
+```bash
+npm install @vite
+npm run build
+```
+
+## Dependencies
+
+- @vite
+
+## Contributing
+
+Contributions are welcome! Please refer to the project's guidelines.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Feel free to copy and paste this README content into your project documentation. Adjust as needed for your project's specifics.
