@@ -1,0 +1,34 @@
+
+.continerabout{
+    justify-content: center;
+   display: flex;
+    padding: 150px;
+    height: 650px;
+}
+ .img-about{
+    width: 300px;
+ }
+
+.about-space{
+    margin-right: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .continerabout {
+        display: block;
+        height: auto;
+    }
+
+    img{
+
+width: 200px;
+
+    }
+
+   .mobile-about{
+    width: 100%;
+  
+   }
+
+
+  }

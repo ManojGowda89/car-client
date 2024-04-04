@@ -1,0 +1,20 @@
+
+
+
+.signup_continer{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+    
+
+
+}
+
+form{
+    border: 1px solid #000000;
+    padding: 50px;
+    box-shadow: 20px 20px;
+}

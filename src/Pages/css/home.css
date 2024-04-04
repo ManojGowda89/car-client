@@ -1,0 +1,46 @@
+.home_continer{
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmF0enE2bjN1Ym5wZ2Y5MTk5eTB1dXZuYjV0Y2FzOXI2ZXc2a3pyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gkQjqHMBNfEoo/giphy.gif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+   padding: 100px;
+   height: 600px;
+}
+
+.form_home{
+    margin-left: 50%;
+}
+
+.home_logo{
+    position: relative;
+    right : 20%;
+    top: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+
+.form_home{
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+
+.home_logo{
+    position: relative;
+    left: 20px;
+    top: 10%;
+    width: 100%;
+    
+}
+
+  
+}

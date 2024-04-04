@@ -1,0 +1,62 @@
+
+
+
+.navbar{
+   font-family: 'Playfair Display ,serif';
+   font-size: 17px;
+    
+   text-transform: uppercase;
+   box-shadow: 10px 8px 25px gray;
+   border-bottom: 1px solid gray;
+}
+
+.active {
+
+ 
+    margin: 10px;
+}
+
+.active :hover {
+
+    border-bottom: 1px solid gray;
+}
+
+/* navbar.css */
+
+/* Styles for Navbar Toggler Icon */
+.navbar-toggler {
+    border: none; /* Remove border */
+    background-color: transparent; /* Transparent background */
+}
+
+.navbar-toggler-icon {
+    width: 1.5em; /* Adjust icon size */
+    height: 1.5em; /* Adjust icon size */
+    background-image: url('path/to/your/toggle-icon.svg'); /* Custom icon image */
+    background-size: cover; /* Cover the button */
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column; /* Display nav items vertically */
+    }
+
+    .navbar-toggler {
+        order: -1; /* Move toggler to the beginning */
+        margin-left: auto; /* Push toggler to the right */
+    }
+
+    .navbar-brand {
+        margin-right: auto; /* Push brand/logo to the left */
+    }
+
+    .navbar-collapse {
+        margin-top: 10px; /* Add margin to separate toggler from nav items */
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px; /* Add padding to nav links for touch area */
+        text-align: center; /* Center align nav links */
+    }
+}

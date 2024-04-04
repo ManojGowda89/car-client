@@ -1,0 +1,18 @@
+
+
+.text-footer{
+
+    text-align: center;
+    
+
+}
+
+.Link{
+    color:white;
+     text-decoration: none;
+    padding:10px
+}
+
+.Link:hover{
+    border-bottom: 2px solid gray;
+}
